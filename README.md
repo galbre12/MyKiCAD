@@ -14,7 +14,7 @@ First file uploaed.
 
 Intent to establish the git repository before all files are added.
 
-Function of MyKiCAD is to create a resitory of all my created files associated with KiCAD EDA.
+Function of MyKiCAD is to create a repository of all my created files associated with KiCAD EDA.
 
 File formats will include:
 
