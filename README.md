@@ -10,7 +10,7 @@ USE THESE FILES AT YOUR OWN RISK.
 
 
 
-First file uploaed.
+First file uploaded.
 
 Intent to establish the git repository before all files are added.
 
