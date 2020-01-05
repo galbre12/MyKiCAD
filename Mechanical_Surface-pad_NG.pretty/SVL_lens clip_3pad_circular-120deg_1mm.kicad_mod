@@ -1,0 +1,11 @@
+(module "SVL_lens clip_3pad_circular-120deg_1mm" (layer F.Cu) (tedit 5BC8470F)
+  (fp_text reference Mech (at -7.17 -7.15) (layer F.SilkS) hide
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  )
+  (fp_text value "SVL_lens clip_3pad_circular-120deg_1mm" (at 0.39 -5.69) (layer F.Fab) hide
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at 0 -13.5) (size 1 1) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -11.691343 6.75 120) (size 1 1) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 11.691343 6.75 240) (size 1 1) (layers F.Cu F.Paste F.Mask))
+)

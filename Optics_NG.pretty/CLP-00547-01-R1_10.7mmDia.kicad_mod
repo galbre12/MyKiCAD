@@ -1,0 +1,22 @@
+(module CLP-00547-01-R1_10.7mmDia (layer F.Cu) (tedit 5CF02396)
+  (tags "Clip,Optic lens clip")
+  (attr smd)
+  (fp_text reference CP24 (at 2.83 0.01 267) (layer F.SilkS)
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  )
+  (fp_text value Mechanical_CLP-00547-01-R1 (at 0.31 -8.700001) (layer F.Fab) hide
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  )
+  (fp_line (start 1.695 -1.29) (end -0.015 -1.290001) (layer F.SilkS) (width 0.15))
+  (fp_line (start -0.015 1.29) (end 1.705 1.29) (layer F.SilkS) (width 0.15))
+  (fp_line (start -0.775 0.54) (end -0.025 0.54) (layer F.SilkS) (width 0.15))
+  (fp_line (start -0.775 -0.54) (end -0.775 0.54) (layer F.SilkS) (width 0.15))
+  (fp_line (start -0.035 -0.54) (end -0.765 -0.540001) (layer F.SilkS) (width 0.15))
+  (pad 1 smd custom (at 0.84 0) (size 1.55 2.4) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 2)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.525 -0.45) (xy -0.755 -0.45) (xy -0.755 0.45) (xy -1.525 0.45)) (width 0.01))
+    ))
+)
