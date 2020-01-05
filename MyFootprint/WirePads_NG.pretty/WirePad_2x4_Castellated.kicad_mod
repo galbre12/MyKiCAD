@@ -1,0 +1,12 @@
+(module WirePad_2x4_Castellated (layer F.Cu) (tedit 5CBFDCC6)
+  (tags "Wire pad,")
+  (attr smd)
+  (fp_text reference REF** (at 0 2.15) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  )
+  (fp_text value WirePad_2x4_Castellated (at 0.59 -2.34) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole trapezoid (at 0 -1.5) (size 2 4) (drill 2 (offset 0 1)) (layers *.Cu *.Mask)
+    (zone_connect 2))
+)
