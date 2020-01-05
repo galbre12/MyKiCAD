@@ -1,0 +1,23 @@
+(module MountingHole_2.5mm_Pad_Trapezoid (layer F.Cu) (tedit 5CB69680)
+  (descr "Mounting Hole 2.5mm")
+  (tags "mounting hole 2.5mm")
+  (zone_connect 2)
+  (attr virtual)
+  (fp_text reference REF** (at 0 -3.5) (layer F.SilkS) hide
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  )
+  (fp_text value MountingHole_2.5mm_Pad_Trapezoid (at 0 3.5) (layer F.Fab)
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  )
+  (fp_text user %R (at 0.3 0) (layer F.Fab)
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  )
+  (pad 1 thru_hole custom (at 0 0) (size 2.6 2.6) (drill 2.5) (layers *.Cu *.Mask)
+    (zone_connect 2)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 1.75 -2.5) (xy -1.54 -2.5) (xy -2.5 -1) (xy -2.5 1) (xy -1.54 2.5)
+         (xy 1.75 2.5)) (width 0.15))
+    ))
+)
