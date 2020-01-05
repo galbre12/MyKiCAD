@@ -1,0 +1,50 @@
+(module LED_Cree-CLQ6A-5x5mm (layer F.Cu) (tedit 5C971F11)
+  (attr smd)
+  (fp_text reference D1 (at 0.79756 3.48996) (layer F.SilkS)
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  )
+  (fp_text value LED (at 0.1397 -4.39928) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 2.9 2.5) (end 2.9 -2.5) (layer F.SilkS) (width 0.1))
+  (pad 7 smd custom (at 1.81 -0.57) (size 1.68 0.87) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.8 0.43) (xy -2.4 0.43) (xy -2.4 -0.28) (xy -0.8 -0.28)) (width 0.001))
+    ))
+  (pad 6 smd custom (at 1.81 0.57) (size 1.68 0.87) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -2.4 -0.43) (xy -0.82 -0.43) (xy -0.82 0.29) (xy -2.4 0.29)) (width 0.001))
+    ))
+  (pad 4 smd custom (at -0.49 1.65) (size 2.31 1.11) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.13 -0.55) (xy -1.13 0.55) (xy -2.17 0.55) (xy -2.17 -0.23) (xy -1.16 -0.55)
+) (width 0.001))
+    ))
+  (pad 3 smd custom (at -1.78 0.47) (size 1.75 0.64) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.02 0.31) (xy -0.02 0.32) (xy -0.87 0.53) (xy -0.87 0.31)) (width 0.001))
+    ))
+  (pad 2 smd custom (at -1.78 -0.47) (size 1.75 0.64) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.02 -0.31) (xy -0.87 -0.31) (xy -0.87 -0.53)) (width 0.001))
+    ))
+  (pad 1 smd custom (at -0.49 -1.65) (size 2.31 1.11) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.09 0.55) (xy -1.15 0.55) (xy -2.17 0.23) (xy -2.17 -0.55) (xy -1.09 -0.55)
+) (width 0.001))
+    ))
+  (pad 5 smd rect (at 1.81 1.75) (size 1.68 0.9) (layers F.Cu F.Paste F.Mask))
+  (pad 8 smd rect (at 1.81 -1.75) (size 1.68 0.9) (layers F.Cu F.Paste F.Mask))
+)

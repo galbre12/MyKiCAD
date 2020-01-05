@@ -1,0 +1,13 @@
+(module LED_OSRAM_TOPLED_E1608 (layer F.Cu) (tedit 5C880292)
+  (tags "LED, OSRAM, TOP LED, E1608")
+  (attr smd)
+  (fp_text reference D? (at 0.01 -0.85) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  )
+  (fp_text value D (at 0.02 -1.81) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -1.08 -0.25) (end -1.08 0.25) (layer F.SilkS) (width 0.1))
+  (pad 2 smd rect (at -0.645 0) (size 0.7 0.5) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 0.47 0) (size 1.05 0.5) (layers F.Cu F.Paste F.Mask))
+)

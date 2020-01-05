@@ -1,0 +1,41 @@
+(module LED_XPE-OSLON_Hyb_Thermal (layer F.Cu) (tedit 5CD99E05)
+  (attr smd)
+  (fp_text reference D2 (at -2.403598 3.06) (layer F.SilkS)
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  )
+  (fp_text value "LED, Hybrid" (at -1 -2.42) (layer F.Fab) hide
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  )
+  (fp_line (start 1.85 -1.66) (end 1.85 1.66) (layer F.SilkS) (width 0.15))
+  (fp_poly (pts (xy -0.508 -1.36398) (xy 0.51181 -1.36398) (xy 0.51054 1.35636) (xy -0.508 1.35636)) (layer F.Paste) (width 0.05))
+  (pad 3 smd custom (at 0 0) (size 1.1 4) (layers F.Cu F.Mask)
+    (zone_connect 2)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.65 2.65684) (xy 1.66 2.65684) (xy 1.66 1.87198) (xy -1.65 1.87198)) (width 0.01))
+      (gr_poly (pts
+         (xy -1.64 -1.86944) (xy 1.67 -1.86944) (xy 1.67 -2.6543) (xy -1.64 -2.6543)) (width 0.01))
+    ))
+  (pad 2 smd custom (at 1.19 0) (size 0.42 2.7) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 2)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.04 -1.65) (xy 0.46 -1.65) (xy 0.46 1.65) (xy -0.04 1.65)) (width 0.01))
+      (gr_poly (pts
+         (xy -0.21 0) (xy -0.21 -0.7) (xy 1.23 -0.7) (xy 1.23 0.7) (xy -0.21 0.7)
+) (width 0.001))
+    ))
+  (pad 1 smd custom (at -1.19 0) (size 0.42 2.7) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 2)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.46 -1.65) (xy 0.04 -1.65) (xy 0.04 1.64) (xy 0.04 1.65) (xy -0.46 1.65)
+) (width 0.01))
+      (gr_poly (pts
+         (xy -1.23 0) (xy -1.23 -0.7) (xy 0.21 -0.7) (xy 0.21 0.7) (xy -1.23 0.7)
+) (width 0.001))
+    ))
+)

@@ -1,0 +1,10 @@
+(module LED_OSRAM_OSRAM-Pure-1010 (layer F.Cu) (tedit 5B7EBFB5)
+  (fp_text reference REF** (at 1.26 1.12) (layer F.SilkS)
+    (effects (font (size 0.6 0.6) (thickness 0.15)))
+  )
+  (fp_text value LED_OSRAM_OSRAM-Pure-1010 (at 0.18 -1.93) (layer F.Fab) hide
+    (effects (font (size 0.6 0.6) (thickness 0.15)))
+  )
+  (fp_line (start 0.5 0) (end 0.5 0.5) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0 0.5) (end 0.5 0.5) (layer F.SilkS) (width 0.15))
+)

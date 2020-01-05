@@ -1,0 +1,37 @@
+(module LED_Cree_XQE_thermal_MtlCor (layer F.Cu) (tedit 5C02ED3E)
+  (fp_text reference D1 (at -1.28 0 90) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
+  )
+  (fp_text value 5700K (at 0 -1.76) (layer F.SilkS) hide
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
+  )
+  (fp_line (start -0.9 -0.9) (end -0.9 0.9) (layer F.SilkS) (width 0.1))
+  (fp_line (start -0.9 -0.9) (end 0.9 -0.9) (layer F.SilkS) (width 0.1))
+  (fp_line (start 0.9 0.9) (end -0.9 0.9) (layer F.SilkS) (width 0.1))
+  (fp_line (start 0.9 -0.9) (end 0.9 0.9) (layer F.SilkS) (width 0.1))
+  (fp_poly (pts (xy -0.15 -0.8) (xy -0.15 0.8) (xy -0.8 0.8) (xy -0.8 -0.8)) (layer F.Mask) (width 0))
+  (fp_poly (pts (xy 0.8 -0.8) (xy 0.8 0.8) (xy 0.15 0.8) (xy 0.15 -0.8)) (layer F.Mask) (width 0))
+  (fp_poly (pts (xy -0.2 -0.75) (xy -0.75 -0.75) (xy -0.75 0.75) (xy -0.2 0.75)) (layer F.Paste) (width 0))
+  (fp_poly (pts (xy 0.75 -0.75) (xy 0.2 -0.75) (xy 0.2 0.75) (xy 0.75 0.75)) (layer F.Paste) (width 0))
+  (fp_circle (center 1.05 1.05) (end 1.09 0.99) (layer F.SilkS) (width 0.15))
+  (pad 1 smd custom (at 0.475 0) (size 0.65 1.6) (layers F.Cu)
+    (zone_connect 2)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.325 0) (xy -0.325 -1.25) (xy 1.025 -1.25) (xy 1.025 1.25) (xy -0.325 1.25)
+) (width 0))
+    ))
+  (pad 2 smd custom (at -0.475 0) (size 0.6 1.6) (layers F.Cu)
+    (zone_connect 2)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0.425 -1.25) (xy -1.025 -1.25) (xy -1.025 1.25) (xy 0.425 1.25)) (width 0))
+    ))
+  (model ${MY_3DSHAPE_GRDIVE}/LED_NG.3dshapes/cree_xqe.wrl
+    (offset (xyz 0 0 0.4))
+    (scale (xyz 0.39 0.39 0.39))
+    (rotate (xyz 0 0 90))
+  )
+)
