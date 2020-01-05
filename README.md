@@ -32,7 +32,7 @@ Mechanical_NG.lib,
 Shields_NG.lib,
 
 #FOOTPRINT FILES (.kicad_mod)
-#Located in folder My Footprint.
+//Located in folder My Footprint.
 
 Capacitor_SMD_NG.pretty,
 Conn_D-Shaped_NG.pretty,
