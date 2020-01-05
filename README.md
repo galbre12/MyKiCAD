@@ -25,6 +25,7 @@ File formats will include:
 
 #LIBRARY FILES (.lib)
 #Located in folder MyLibrary.
+
 Connector_NG.lib,
 LED_NG.lib,
 Mechanical_NG.lib,
@@ -32,6 +33,7 @@ Shields_NG.lib,
 
 #FOOTPRINT FILES (.kicad_mod)
 #Located in folder My Footprint.
+
 Capacitor_SMD_NG.pretty,
 Conn_D-Shaped_NG.pretty,
 Conn_FPC_FFC_NG.pretty,
