@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LED_OSRAM-OSTAR-RGBW
+D LED RGBW 8 pins
+K led rgbw diode
+$ENDCMP
+#
+$CMP LED_RGBW
+D LED RGBW 8 pins, high to low pin order
+K led rgbw diode
+$ENDCMP
+#
+$CMP LED_RGBW_Reverse
+D LED RGBW 8 pins, low to high pin order
+K led rgbw diode
+$ENDCMP
+#
+#End Doc Library

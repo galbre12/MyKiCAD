@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SAMTEC-HLE
+#
+DEF SAMTEC-HLE U 0 40 Y Y 1 F N
+F0 "U" 350 100 50 H V L BNN
+F1 "SAMTEC-HLE" 50 -250 50 H V L BNN
+F2 "" 400 400 50 H I L BNN
+F3 "" -300 500 50 H I L BNN
+F4 "Bottom Entry, .100 Tiger Beam Cost-effective Single Beam Socket Strip" 400 -400 50 H I C CNN "Description"
+DRAW
+P 2 0 0 10 0 -300 0 200 N
+P 2 0 0 10 0 200 799 200 N
+P 2 0 0 10 799 -300 0 -300 N
+P 2 0 0 10 799 200 799 -300 N
+X 1 1 -200 0 200 R 40 40 0 0 P
+X 2 2 1000 0 200 L 40 40 0 0 P
+X 3 3 -200 -100 200 R 40 40 0 0 P
+X 4 4 1000 -100 200 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
