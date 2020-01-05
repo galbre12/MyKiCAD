@@ -1,5 +1,5 @@
 # MyKiCAD
-Personal repository of custom components and footprints associated with KiCAD EDA
+#Personal repository of custom components and footprints associated with KiCAD EDA
 
 THIS REPOSITORY DOES NOT FOLLOW THE GUIDLINES LAYED OUT BY THE ADMINS AT CERN AND THOSE THAT
 MAINTAIN THE KICAD EDA PLATFORM. 
