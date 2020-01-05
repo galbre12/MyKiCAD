@@ -18,9 +18,9 @@ Function of MyKiCAD is to create a repository of all my created files associated
 
 File formats will include:
 
-.lib
-.kicad_mod
-3d shapes
-.pretty
+.lib,
+.kicad_mod,
+3d shapes,
+.pretty,
 
 list wil be updated later.
