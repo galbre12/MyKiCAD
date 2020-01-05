@@ -23,4 +23,9 @@ File formats will include:
 3d shapes,
 .pretty,
 
-list wil be updated later.
+LIBRARY FILES (.lib)
+Connector_NG.lib
+LED_NG.lib
+Mechanical_NG.lib
+Shields_NG.lib
+
